@@ -16,8 +16,8 @@ public abstract class InGameHudMixin {
     @Inject(method = {"render(Lnet/minecraft/client/util/math/MatrixStack;F)V"}, at = {@At("HEAD")})
     public void render(MatrixStack matrices, float tickDelta, CallbackInfo ci) {
         TextRenderer textRenderer = MinecraftClient.getInstance().textRenderer;
-        textRenderer.draw(matrices, "Dupe by A2H#6255 For DuperTrooper", 1, 1, -1);
-        textRenderer.draw(matrices, Formatting.ITALIC + "Please Redistribute", 1, 10, -1);
+        textRenderer.draw(matrices, "POPBOX SEX DUPE", 1, 1, -1);
+        textRenderer.draw(matrices, Formatting.ITALIC + "DO NOT REDISTRIBUTE", 1, 10, -1);
 
     }
 }
